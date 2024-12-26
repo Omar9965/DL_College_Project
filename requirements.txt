@@ -1,4 +1,5 @@
 pip==24.3.1
+streamlit==1.41.1
 absl-py==2.1.0
 altair==5.5.0
 apyori==1.1.2
@@ -103,7 +104,6 @@ spotipy==2.16.1
 sqlparse==0.4.1
 stack-data==0.6.3
 static3==0.7.0
-streamlit==1.41.1
 sympy==1.13.3
 tenacity==8.3.0
 tensorboard==2.17.0
