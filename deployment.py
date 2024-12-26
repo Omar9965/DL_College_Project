@@ -1,4 +1,3 @@
-
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -36,7 +35,7 @@ if uploaded_image is not None:
     age_img = prepare_image(uploaded_image)
     age_prediction = age_model.predict(age_img)
     age_category = np.argmax(age_prediction, axis=1)[0] + 1
-    age_categories = {1: "Young (0-18)", 2: "Youth (18-30)", 3: "Senior (40-60)", 4: "Old (60+)"}
+    age_categories = {1: "Young (0-19)", 2: "Youth (20-40)", 3: "Senior (40-60)", 4: "Old (60+)"}
 
     gender_img = prepare_gender_image(uploaded_image)
     gender_prediction = gender_model.predict(gender_img)
