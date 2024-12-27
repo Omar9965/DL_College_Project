@@ -30,7 +30,7 @@ st.write("Upload an image and the model will predict both age category and gende
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
 if uploaded_image is not None:
-    st.image(uploaded_image, caption="Uploaded Image", use_container_width=True)
+    st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
 
     age_img = prepare_image(uploaded_image)
     age_prediction = age_model.predict(age_img)
