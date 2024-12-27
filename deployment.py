@@ -31,8 +31,9 @@ st.write("Upload an image and the model will predict both age category and gende
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
 if uploaded_image is not None:
-    st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
-
+    resized_display_image = Image.open(uploaded_image).resize((200, 200))
+    st.image(resized_display_image, caption="Uploaded Image (200x200)", width=200)
+    
     age_img = prepare_image(uploaded_image)
     age_prediction = age_model.predict(age_img)
     age_category = np.argmax(age_prediction, axis=1)[0] + 1
