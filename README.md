@@ -74,6 +74,8 @@ To use the application, follow these steps:
 1. Open the web application directly by clicking [here](https://dlcollegeproject-rnd5mrgjsndejpbhpatljp.streamlit.app/).
 2. Upload an image using the provided interface.
 3. The application will process the image and display the predicted gender and age category.
+ ![Project Demo](https://raw.githubusercontent.com/m7md158/DL_Colloge_Project/main/Recording2024-12-27122259-ezgif.com-video-to-gif-converter.gif)
+
 
 ---
 
