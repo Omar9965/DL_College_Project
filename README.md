@@ -1,6 +1,7 @@
 # Gender and Age Classification
 
-This project utilizes deep learning to classify gender and predict age from images. It demonstrates the use of convolutional neural networks (CNNs) for image-based classification tasks and deploys the models via a user-friendly web interface built with Streamlit.
+
+This project leverages deep learning to classify gender and predict age from images. It utilizes a custom CNN for age prediction and a pre-trained VGG16 model for gender classification. The models are deployed through a user-friendly web interface built using Streamlit
 
 ---
 
@@ -19,18 +20,18 @@ This project utilizes deep learning to classify gender and predict age from imag
 The **Gender and Age Classification** project is a tool that predicts:
 - **Gender**: Identifies if the person in the image is male or female.
 - **Age Category**: Classifies the age into one of the following categories:
-  - Young (0-18 years)
-  - Youth (18-40 years)
+  - Young (0-19 years)
+  - Youth (20-40 years)
   - Senior (40-60 years)
   - Old (60+ years)
 
-The models are trained using CNNs and deployed using Streamlit for an interactive web interface.
+The age prediction model is built using a custom CNN architecture, while the gender classification model leverages the pre-trained VGG16 . Both models are deployed using Streamlit to provide an interactive web interface.
 
 ---
 
 ## Features
 - **Data Processing**: Preprocesses uploaded images for compatibility with the trained models.
-- **Gender Classification**: Uses a CNN to predict male or female.
+- **Gender Classification**: Uses the pre-trained VGG16 model to predict male or female.
 - **Age Categorization**: Uses another CNN to classify age into predefined categories.
 - **Web Application**: Provides an intuitive interface for uploading images and viewing results.
 
@@ -68,17 +69,11 @@ Follow these steps to set up and run the project locally:
 
 ## Usage
 
-To run the application:
-1. Start the Streamlit app:
-   ```bash
-   streamlit run deployment.py
-   ```
+To use the application, follow these steps:
 
-2. Open your web browser and navigate to:
-   ```
-   http://localhost:8501
-   ```
-3. Upload an image, and the application will display the predicted gender and age category.
+1. Open the web application directly by clicking [here](https://dlcollegeproject-rnd5mrgjsndejpbhpatljp.streamlit.app/).
+2. Upload an image using the provided interface.
+3. The application will process the image and display the predicted gender and age category.
 
 ---
 
