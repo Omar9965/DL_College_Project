@@ -102,7 +102,4 @@ Gender_and_Age_Classification/
 
 
 ### Predicted Results
-- **Input**: Example image of a person.
-- **Output**:
-  - **Predicted Gender**: Male
-  - **Predicted Age Category**: Youth (18-40 years)
+
