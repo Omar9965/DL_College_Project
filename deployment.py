@@ -8,11 +8,12 @@ gender_model = tf.keras.models.load_model('gender_model.h5')
 
 def prepare_image(image):
     img = Image.open(image)
-    img = img.convert("L")  
+    img = img.convert("RGB")  
     img = img.resize((128, 128))  
     img = np.array(img)
-    img = img.reshape((1, 128, 128, 1))  
-    img = img / 255.0  
+    # img = img.reshape((1, 128, 128, 1))  
+    img = img / 255.0 
+    img = np.expand_dims(img, axis=0)
     return img
 
 
