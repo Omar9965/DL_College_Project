@@ -97,7 +97,7 @@ Gender_and_Age_Classification/
 ## Example Output
 
 ### User Interface
-(Placeholder for UI screenshot)
+
 ![Screenshot](https://raw.githubusercontent.com/m7md158/DL_Colloge_Project/main/Screenshot%202024-12-27%20130946.png)
 
 
