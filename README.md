@@ -98,7 +98,8 @@ Gender_and_Age_Classification/
 
 ### User Interface
 (Placeholder for UI screenshot)
-![UI Example](path/to/ui_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/m7md158/DL_Colloge_Project/main/Screenshot%202024-12-27%20130946.png)
+
 
 ### Predicted Results
 - **Input**: Example image of a person.
