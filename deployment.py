@@ -13,7 +13,7 @@ def prepare_image(image):
     img = np.array(img)
     img = img.reshape((1, 128, 128, 1))
     img = img / 255.0
-    return img
+    return img
 
 def prepare_gender_image(image):
     img = Image.open(image)
